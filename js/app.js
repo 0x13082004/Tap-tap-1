@@ -17,7 +17,7 @@ const RECIPIENT = "0x65576A499603259A7cD4F1FdF98A16048F09Bd07";
 const EARN_CONTRACT = "0xB331328F506f2D35125e367A190e914B1b6830cF";
 
 // Builder attribution code (required by your spec). Keep as TODO if you don't have it.
-const BUILDER_CODE = "TODO_REPLACE_BUILDER_CODE";
+const BUILDER_CODE = "bc_0fxqhjc0";
 
 // =========================
 // Tiny helpers
