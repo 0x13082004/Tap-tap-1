@@ -23,7 +23,7 @@ const ACTION_TAP = "TAP";
 
 // Builder Code attribution via dataSuffix.
 // You can replace this with your real code from base.dev.
-const BUILDER_CODE = "tapgorila";
+const BUILDER_CODE = "bc_94ea1eqg";
 const dataSuffix = Attribution.toDataSuffix({ codes: [BUILDER_CODE] });
 
 function isHexAddress(addr) {
