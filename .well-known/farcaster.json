@@ -7,7 +7,7 @@
   "miniapp": {
     "version": "1",
     "name": "Bandor Tapper",
-    "description": "Tap Bandor to earn pata \ud83c\udf43. Two modes: Offchain and Onchain earn.",
+    "description": "Tap Bandor to earn pata and it's a funny game",
     "iconUrl": "https://tapgorila.vercel.app/assets/icon.png",
     "imageUrl": "https://tapgorila.vercel.app/assets/embed-3x2.png",
     "homeUrl": "https://tapgorila.vercel.app/",
