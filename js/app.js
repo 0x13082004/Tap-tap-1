@@ -367,11 +367,11 @@ async function processTapQueue() {
         }
       }
       tapQueue -= 1;
-      setTapHint(tapQueue > 0 ? `Queued taps: ${tapQueue}` : "Tap Bandor! (onchain)");
+      setTapHint(tapQueue > 0 ? `Queued taps: ${tapQueue}` : "Tap");
     }
   } finally {
     tapSending = false;
-    setTapHint("Tap Bandor! (onchain)");
+    setTapHint("Tap");
   }
 }
 
@@ -520,7 +520,7 @@ function setEarnButtonState(text, disabled) {
 function wireUi() {
   updateHud();
   startEnergyRegen();
-  setTapHint("Tap Bandor! (onchain)");
+  setTapHint("Tap");
 
   const tapArea = document.getElementById("tapArea");
   // Use Pointer Events only to avoid double-firing (pointerdown + touchstart).
