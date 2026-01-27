@@ -14,7 +14,7 @@ const BASE_MAINNET_CHAIN_ID = "0x2105";
 const TAP_CONTRACT = "0xB331328F506f2D35125e367A190e914B1b6830cF"; // checksummed
 
 // Optional: the same address is used as the USDC tip recipient in the Tip tab.
-const TIP_RECIPIENT = TAP_CONTRACT;
+const TIP_RECIPIENT = "0xe8Bda2Ed9d2FC622D900C8a76dc455A3e79B041f";
 
 // Contract function: logAction(bytes32,bytes)
 // selector = keccak256("logAction(bytes32,bytes)")[0:4] = 0x2d9bc1fb
